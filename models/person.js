@@ -16,7 +16,6 @@ mongoose.connect(url)
 
 // citing stackoverflow for multiple validators in one field https://stackoverflow.com/questions/24219226/add-more-than-one-validate-in-mongoose
 const isTooShort = function(val) {
-    console.log(val.length)
     return val.length >= 9
 }
 
