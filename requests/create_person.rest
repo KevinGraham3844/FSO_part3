@@ -1,7 +1,7 @@
-POST https://fso-part3-fng7.onrender.com/api/persons
+POST http://localhost:3001/api/people/
 Content-Type: application/json
 
 {
-    "name": "Lauralie Pow",
-    "number": "517-262-1432"
+    "name": "Monica",
+    "number": "846-979-4846"
 }
